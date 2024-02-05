@@ -1,0 +1,23 @@
+{
+  "name": "nodejs",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "conv": "node 1_Converter.js",
+    "mod": "node 2_CreateModule.js",
+    "file": "node 3_WorkWithFile.js",
+    "folder": "node 4_WorkWithFolder.js",
+    "serv": "node 5_Server.js",
+    "ser": "node 6_ExpressJs.js"
+  },
+
+  "author": "Mokky",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "currency-converter-lt": "^2.0.1",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2"
+  }
+}
